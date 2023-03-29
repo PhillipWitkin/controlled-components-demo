@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
-import { LayerOne } from './components/LayerOne'
+import LayerOne  from './components/LayerOne'
 
 class App extends Component {
   constructor(props) {
@@ -19,7 +19,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Message App</h1>
+        <h2>App - This is the top level component</h2>
+        <p>It has a state 'message': <b>{this.state.message}</b></p>
+        <h3>I'll pass it down to the first layer of components, along with a Big Red Button to change it (onMessageChange)</h3>
         <LayerOne
           message={this.state.message}
           onMessageChange={this.handleMessageChange}
