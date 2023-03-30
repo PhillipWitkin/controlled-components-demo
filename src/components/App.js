@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import '../App.css';
 import React, { Component } from 'react';
-import LayerOne  from './components/LayerOne'
+import LayerOne  from './LayerOne'
 
 class App extends Component {
   constructor(props) {
