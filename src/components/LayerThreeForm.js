@@ -28,7 +28,7 @@ const LayerThreeForm = (props) => {
                 onChange={handleChange}
                 />
             <button type="submit">Submit</button>
-            <p>Press the 'submit' Button to use the Big Red Button (props.onMessageChanged) and modify App level state <b>message</b>message to match component local state <b>inputValue</b></p>
+            <p>Press the 'submit' Button to use the Big Red Button (props.onMessageChanged) and modify App level state <b>message</b>to match component local state <b>inputValue</b></p>
             </form>
             <p>Local state inputValue: <b>{inputValue}</b> </p>
             <p>Current (App level) message: <b>{props.message}</b></p>
